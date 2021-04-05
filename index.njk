@@ -1,0 +1,21 @@
+{% extends "_includes/default.njk" %}
+
+{% block title %}The Golden Dino{% endblock %}
+
+{% block content %}
+  <style type="text/css">
+    #golden-dino {
+      display:inline-block;
+      width:40px;height:40px;
+      background-position:0 0;
+      background-image:url(/images/golden-dino.png)
+    }
+   
+  </style>
+
+  <div class="fixed inset-0 flex flex-col justify-center items-center bg-amber-500">
+    <div id="golden-dino">
+    </div>
+    <h1 class="text-amber-800 font-semibold text-lg mt-2">The Golden Dino</h1>
+  </div>
+{% endblock %}
